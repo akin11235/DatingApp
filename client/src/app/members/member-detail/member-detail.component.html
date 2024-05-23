@@ -10,7 +10,7 @@
         <div
           class="mb-2"
           *ngIf="
-            (presenceService.onlineUserSource$ | async)?.includes(
+            (presenceService.onlineUser$| async)?.includes(
               member.userName
             )
           "
