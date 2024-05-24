@@ -3,7 +3,7 @@ import { AdminService } from '../../_services/admin.service';
 import { User } from '../../_models/user';
 import { BsModalRef, BsModalService, ModalOptions } from 'ngx-bootstrap/modal';
 import { RolesModelComponent } from '../../modals/roles-model/roles-model.component';
-import { initialState } from 'ngx-bootstrap/timepicker/reducer/timepicker.reducer';
+
 
 @Component({
   selector: 'app-user-management',

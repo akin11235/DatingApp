@@ -38,6 +38,7 @@ import { RolesModelComponent } from './modals/roles-model/roles-model.component'
 import { RouteReuseStrategy } from '@angular/router';
 import { CustomRouteReuseStrategy } from './_services/commonRouteReuseStrategy';
 import { ConfirmDialogComponent } from './modals/confirm-dialog/confirm-dialog.component';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @NgModule({
   declarations: [
